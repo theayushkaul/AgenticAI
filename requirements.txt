@@ -6,3 +6,7 @@ langchain-google-genai
 python-dotenv
 langgraph
 langsmith
+langchain_tavily
+mcp
+langchain-mcp-adapters
+ipykernel

@@ -1,4 +1,4 @@
-from mcp.server import FastMCP
+from fastmcp import FastMCP
 
 mcp = FastMCP("Math") # Server Name
 
@@ -13,7 +13,7 @@ def multiply(a: int, b: int) -> int:
     return a * b
 
 @mcp.tool
-def divide(a: int, b: int) -> int:
+def divide(a: int, b: int) -> float:
     """Divide two numbers."""
     return a / b
 
